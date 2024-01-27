@@ -2,19 +2,12 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-image:url(../public/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+  background-size: contain;
+  background-repeat: round;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +21,69 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbotron {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../public/denise-jans-OaVJQZ-nFD0-unsplash.jpg);
+  background-color: aqua;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow:0px 0px 60px 60px rgba(0, 0, 0, 0.532) inset;
+}
+
+.movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie-wrapper {
+  background-color: rgba(211, 211, 211, 0.811);
+  width: 300px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.movie-wrapper:hover {
+  background-color: rgba(0, 253, 185, 0.811);
+}
+
+.movie-image {
+  width: 100%;
+}
+
+.movie-title {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-date {
+  margin-top: 1rem;
+}
+
+.movie-rate {
+  margin: 20px 0;
+  color: #ff0000;
+  
+}
+
+
+.movie-search {
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 8px;
 }

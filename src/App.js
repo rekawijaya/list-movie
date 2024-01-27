@@ -48,4 +48,4 @@ const App = function () {
   );
 }
 
-export default App;
+export default App
